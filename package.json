@@ -1,0 +1,25 @@
+{
+  "name": "discordhooks",
+  "version": "1.0.0",
+  "description": "Simple, efficient and easy to set-up Discord Webhooks.",
+  "main": "index.js",
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "fs": "^0.0.1-security",
+    "node-cron": "^2.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JamesMe0w/discordhooks.git"
+  },
+  "author": "JamesMe0w",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JamesMe0w/discordhooks/issues"
+  },
+  "homepage": "https://github.com/JamesMe0w/discordhooks#readme"
+}
