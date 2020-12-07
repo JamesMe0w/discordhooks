@@ -1,7 +1,7 @@
 {
   "name": "discordhooks",
   "version": "1.0.0",
-  "description": "Simple, efficient and easy to set-up Discord Webhooks.",
+  "description": "Simple, efficient and easy to set-up automated Discord Webhooks.",
   "main": "index.js",
   "dependencies": {
     "discord.js": "^12.5.1",
