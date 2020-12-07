@@ -14,6 +14,6 @@ const files = fs.readdirSync('./tasks').filter(file => file.endsWith('.js') && f
 for(const file of files){
   const task = require(`./${file}`);
   tasks.set(task.name, cron.schedule(task.time, function() {
-    webhooks.clients.get(task.clientname).send({ content: 'no u' })
+    webhooks.clients.get(task.clientname).send(resources.resources.get(task.resourcename).execute())
   }))
 };
